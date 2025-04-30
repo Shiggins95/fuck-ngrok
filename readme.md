@@ -1,3 +1,12 @@
+# Inspiration for this project
+As a React Native developer, connecting a real Android or iOS device to my local server is a daily need. Sure, I could mess around with my machine’s public IP, but that’s clunky and not exactly fun. I wanted something clean and human-readable.
+
+That’s where ngrok came in, offering quick tunnels and a slick public URL. For $10/month, I even got a fixed domain. It worked... until it didn’t. Random errors, unstable connections, and no real answers from support left me frustrated.
+
+So I built fuck-ngrok—a simple set of nginx configs you can toss into a cloud container to reverse tunnel back into your local machine. Best part? I get unlimited domains for the dirt-cheap price of a $5/month DigitalOcean droplet (plus whatever domain I use, which gives me endless subdomains too).
+
+Goodbye ngrok. Hello freedom.
+
 # Setting up new Droplet for reverse SSH tunnel
 
 ### Setting up droplet
