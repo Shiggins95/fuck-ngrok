@@ -22,6 +22,9 @@ To
 sed --in-place 's/^PermitRootLogin.*/PermitRootLogin no/g' /etc/ssh/sshd_config
 ```
 
+### HTTPS/HTTP Port
+When creating your firewall, ensure HTTPS port 443 and HTTP port 80 (if using http) are enabled in the inbound rules.
+
 ### Install and set up NGINX
 Run the below commands to update apt packages and install NGINX
 
